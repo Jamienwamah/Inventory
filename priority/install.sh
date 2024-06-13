@@ -1,5 +1,5 @@
 # To set up the project, follow these steps:
-# Clone the Repository if included in repository:
+# Clone the Repository:
 git clone https://github.com/Jamienwamah/Inventory.git
 cd Inventory
 
