@@ -1,7 +1,7 @@
 # To set up the project, follow these steps:
 # Clone the Repository if included in repository:
-git clone https://github.com/yourusername/priority.git
-cd supplierapi
+git clone https://github.com/Jamienwamah/Inventory.git
+cd Inventory
 
 # Create and Activate a Virtual Environment:
 python3 -m venv env
