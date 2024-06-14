@@ -1,5 +1,4 @@
 from django.db import models
-from supplierapi.models import Supplier
 
 
 class Item(models.Model):
@@ -10,8 +9,6 @@ class Item(models.Model):
         max_digits=10, decimal_places=2)
     date_added = models.DateTimeField(
         auto_now_add=True)
-    suppliers = models.ManyToManyField(
-        Supplier, related_name='items')
 
     def __str__(self):
         return self.name
